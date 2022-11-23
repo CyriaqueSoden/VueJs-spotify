@@ -1,6 +1,6 @@
 
 <template>
-  <div class="bg">
+  <div class="p">
     <img src="../assets/Vector(1).png" alt="">
     <div>
 
@@ -19,10 +19,10 @@
 
 <style scoped>
 
-.bg{
+.p{
   background-image: url("../assets/getStartedBg.png");
   background-size: cover;
-  height: 100%;
+  height:100%;
   width:100%;
 }
 
