@@ -1,11 +1,12 @@
 <template>
     <div>
-      <button>
-        <p>
-
-          {{message}}
-        </p>
-      </button>
+      <router-link :to="route">
+        <button>
+          <p>
+            {{message}}
+          </p>
+        </button>
+      </router-link>
     </div>
 </template>
   
@@ -37,6 +38,6 @@ color: #F7F7F7;
 
 <script>
 export default {
- props: ['message']
+ props: ['message','route']
 }
 </script>

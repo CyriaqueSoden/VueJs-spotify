@@ -14,7 +14,7 @@ export default {
       <p class="bas">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sagittis enim purus sed phasellus. Cursus ornare id scelerisque aliquam.  </p>
       <router-link to="/loading">
 
-        <GreenButton class="btnV" message='Get Started' link="/loading"></GreenButton>
+        <GreenButton class="btnV" message='Get Started' route="/loading"></GreenButton>
       </router-link>
     </div>
     
