@@ -2,9 +2,11 @@
     <div class="bg">
         <img class="un" src="../assets/Vector(1).png" alt=""/>
         <img class="deux" src="../assets/Group 24.png" alt="">
-
+        <greenButton/>
     </div>
 </template>
+
+
 
 <style scoped>
 
