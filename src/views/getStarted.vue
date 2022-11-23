@@ -1,20 +1,26 @@
+<script> 
+import GreenButton from "@/components/greenButton.vue"; 
+export default {   
+  components: {GreenButton}, 
+}  
+</script>
 
 <template>
   <div class="p">
     <img src="../assets/Vector(1).png" alt="">
     <div>
-
+      
       <p class="haut">Enjoy listening to music</p>
       <p class="bas">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sagittis enim purus sed phasellus. Cursus ornare id scelerisque aliquam.  </p>
+      <router-link to="/loading">
+
+        <GreenButton class="btnV" message='Get Started' link="/loading"></GreenButton>
+      </router-link>
     </div>
-    <GreenButton />
+    
   </div>
 </template>
 
-<script>
-  import GreenButton from '@/components/greenButton.vue'
-  export default GreenButton;
-</script>
 
 
 <style scoped>
@@ -68,5 +74,16 @@ line-height: 23px;
 text-align: center;
 
 color: #797979;
+}
+
+.btnV{
+  position: absolute;
+width: 329px;
+height: 92px;
+left: 45px;
+top: 700px;
+
+background: #42C83C;
+border-radius: 30px;
 }
 </style>

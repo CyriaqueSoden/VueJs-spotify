@@ -2,10 +2,18 @@
     <div class="bg">
         <img class="un" src="../assets/Vector(1).png" alt=""/>
         <img class="deux" src="../assets/Group 24.png" alt="">
-        <greenButton/>
+        <router-link to="/loading">
+            <GreenButton class="btnV" message="Continue"/>
+        </router-link>
     </div>
 </template>
 
+<script> 
+import GreenButton from "@/components/greenButton.vue"; 
+export default {   
+  components: {GreenButton}, 
+}  
+</script>
 
 
 <style scoped>
@@ -33,6 +41,13 @@ top: 400px;
   background-size: cover;
   height:100%;
   width:100%;
+}
+
+.btnV{
+    position: absolute;
+left: 50px;
+top: 683px;
+
 }
 
 </style>
